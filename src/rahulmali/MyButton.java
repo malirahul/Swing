@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class MyButton {
-
+    
     public static void main(String[] args) {
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -31,6 +31,10 @@ public class MyButton {
         btn.setCursor(cur);
 */
        // btn.setEnabled(false);
+        
+ /**
+    * An integer to keep track of for fun.
+    */
         btn.setVisible(true);
 
         frame.setVisible(true);
